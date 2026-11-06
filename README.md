@@ -1,14 +1,14 @@
-# Cybersecurity Engineering & SOC Portfolio
+# Cybersec Labs
 
-Repositori dokumentasi praktik laboratorium keamanan siber, deteksi ancaman (SIEM), analisis jaringan, pengamanan sistem, dan pengujian penetrasi. Seluruh pengujian dilakukan secara terisolasi pada infrastruktur lokal (`127.0.0.1`).
+Catatan praktik laboratorium keamanan siber: deteksi ancaman (SIEM), analisis jaringan, hardening sistem, pengujian penetrasi, dan incident response. Seluruh pengujian dilakukan pada mesin atau container milik sendiri (`127.0.0.1`).
 
-## Status Laboratorium
+## Status Lab
 
-| Modul / Direktori | Fokus Praktik | Status | Dokumentasi |
-| :--- | :--- | :--- | :--- |
-| `labs/wazuh` | SIEM Wazuh Single-Node, SSH Brute-Force Detection, MITRE ATT&CK & Custom Rules | 🟡 Sedang Dikerjakan | [Lihat Lab](./labs/wazuh/) |
-| `labs/network` | Analisis Lalu Lintas Jaringan & Deteksi Anomali | ⚪ Direncanakan | [Lihat Lab](./labs/network/) |
-| `labs/pentest` | Web & Network Penetration Testing Terisolasi | ⚪ Direncanakan | [Lihat Lab](./labs/pentest/) |
-| `linux-hardening-audit` | Audit Konfigurasi & Pengamanan Server Linux | ⚪ Direncanakan | [Lihat Lab](./linux-hardening-audit/) |
-| `incident-response-playbook` | SOP & Playbook Penanganan Insiden | ⚪ Direncanakan | [Lihat Lab](./incident-response-playbook/) |
-| `learning-notes` | Catatan Teknis, Pemetaan MITRE ATT&CK & Referensi | ⚪ Direncanakan | [Lihat Catatan](./learning-notes/) |
+| Direktori                                                     | Fokus                                                                                 | Status            |
+| :------------------------------------------------------------ | :------------------------------------------------------------------------------------ | :---------------- |
+| [`labs/wazuh`](./labs/wazuh/)                                 | SIEM Wazuh single-node, deteksi brute-force SSH, pemetaan MITRE ATT&CK, aturan kustom | Sedang dikerjakan |
+| [`labs/network`](./labs/network/)                             | Analisis lalu lintas jaringan (Wireshark, Suricata, Zeek)                             | Direncanakan      |
+| [`labs/pentest`](./labs/pentest/)                             | Pengujian aplikasi web pada target lab lokal                                          | Direncanakan      |
+| [`linux-hardening-audit`](./linux-hardening-audit/)           | Audit dan pengamanan konfigurasi Linux                                                | Direncanakan      |
+| [`incident-response-playbook`](./incident-response-playbook/) | Playbook penanganan insiden phishing                                                  | Direncanakan      |
+| [`learning-notes`](./learning-notes/)                         | Catatan belajar teknis                                                                | Direncanakan      |
