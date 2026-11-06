@@ -1,0 +1,30 @@
+# Secrets, Credentials & Certificates
+.env
+*.env
+*.pem
+*.key
+*.crt
+*secret*
+*password*
+
+# Network Captures & Logs
+*.pcap
+*.pcapng
+*.cap
+*.log
+
+# Memory Images, Disk Dumps & Large Files
+*.raw
+*.mem
+*.dmp
+*.vmem
+*.iso
+*.ova
+*.vmdk
+*.tar.gz
+*.zip
+
+# OS & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
