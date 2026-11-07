@@ -67,7 +67,7 @@ IOC itu murah diubah penyerang, sedangkan teknik (TTP) lebih sulit diganti. Kare
 
 ## Deteksi
 
-Satu aturan Sigma: [`sigma/proc_creation_win_office_spawn_shell.yml`](sigma/proc_creation_win_office_spawn_shell.yml), mendeteksi aplikasi Office yang memunculkan shell (pola pasca-lampiran, T1566.001 dan T1204). Sintaksnya divalidasi dengan `sigma check`. **Belum diuji pada log nyata** karena lab ini tidak memiliki endpoint Windows dengan log pembuatan proses.
+Satu aturan Sigma: [`sigma/proc_creation_win_office_spawn_shell.yml`](sigma/proc_creation_win_office_spawn_shell.yml), mendeteksi aplikasi Office yang memunculkan shell (pola pasca-lampiran, T1566.001 dan T1204). Sintaksnya divalidasi dengan `sigma check` (sigma-cli 4.0.0, pySigma 2.0.2; 0 error, 0 peringatan). **Belum diuji pada log nyata** karena lab ini tidak memiliki endpoint Windows dengan log pembuatan proses.
 
 ## Batasan
 
