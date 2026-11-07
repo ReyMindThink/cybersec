@@ -1,0 +1,11 @@
+<group name="local,syslog,sshd,lab,">
+  <rule id="100100" level="12">
+    <if_sid>5712</if_sid>
+    <match>Invalid user admin</match>
+    <description>Lab: SSH brute force against default account name 'admin' (escalated from rule 5712)</description>
+    <mitre>
+      <id>T1110.001</id>
+    </mitre>
+    <group>authentication_failures,lab,</group>
+  </rule>
+</group>
