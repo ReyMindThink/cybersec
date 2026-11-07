@@ -10,9 +10,9 @@ Target adalah **container**, bukan server atau VM penuh. Banyak pengecekan CIS (
 
 | Ukuran                | Sebelum       | Sesudah |
 | :-------------------- | :------------ | :------ |
-| SCA Wazuh: Passed     | 94            | <<ISI>> |
-| SCA Wazuh: Failed     | 107           | <<ISI>> |
-| SCA Wazuh: Score      | 46%           | <<ISI>> |
+| SCA Wazuh: Passed     | 94            | ... |
+| SCA Wazuh: Failed     | 107           | ... |
+| SCA Wazuh: Score      | 46%           | ...% |
 | Lynis hardening index | 58            | 58      |
 | Saran Lynis           | 53            | 51      |
 | Warning Lynis         | 1 (PKGS-7392) | 0       |
