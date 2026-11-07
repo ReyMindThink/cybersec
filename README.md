@@ -8,7 +8,7 @@ Catatan praktik laboratorium keamanan siber: deteksi ancaman (SIEM), analisis ja
 | :------------------------------------------------------------ | :------------------------------------------------------------------------------------ | :---------------- |
 | [`labs/wazuh`](./labs/wazuh/)                                 | SIEM Wazuh single-node, deteksi brute-force SSH, pemetaan MITRE ATT&CK, aturan kustom | Selesai (lab dasar) |
 | [`labs/network`](./labs/network/)                             | Analisis lalu lintas jaringan (Wireshark, Suricata, Zeek)                             | Selesai (lab dasar)      |
-| [`labs/pentest`](./labs/pentest/)                             | Pengujian aplikasi web pada target lab lokal                                          | Direncanakan      |
+| [`labs/pentest`](./labs/pentest/)                             | Pengujian aplikasi web pada target lab lokal                                          | Selesai (lab dasar)      |
 | [`linux-hardening-audit`](./linux-hardening-audit/)           | Audit dan pengamanan konfigurasi Linux                                                | Selesai (lab dasar)      |
 | [`incident-response-playbook`](./incident-response-playbook/) | Playbook penanganan insiden phishing                                                  | Selesai (dokumen)      |
 | [`learning-notes`](./learning-notes/)                         | Catatan belajar teknis                                                                | Direncanakan      |
